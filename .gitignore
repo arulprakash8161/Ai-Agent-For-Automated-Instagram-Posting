@@ -1,0 +1,23 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Temporary media files and local n8n folders
+*.mp4
+*.mov
+*.avi
+*.mkv
+.n8n-files/
+.n8n/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
